@@ -181,6 +181,11 @@ body{
     background-color: rgb(255, 255, 255);
     color: #1D1F2E;
 }
+.punkt{
+    animation: 2s linear 1s infinite running slidein;   
+}
+@keyframes slidein { from { margin-left: 0%; } to { margin-left: 10%; }  }
+
 /*Редактирование вида и положения пунктов*/
 /*1*/
 .block_punkt{
